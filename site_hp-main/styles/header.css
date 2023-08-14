@@ -16,7 +16,7 @@
 }
 
 .cabeçalho {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,7 +46,7 @@
 .lista-menu__titulo,
 .lista-menu__item {
     padding: 1em;
-    background-color: var(--preto);
+    background-color: rgb(199, 157, 32);;;
 }
 
 .lista-menu__titulo {
@@ -55,7 +55,7 @@
 }
 
 .lista-menu__link {
-    background: rgb(199, 157, 32);
+    background: rgb(0, 0, 0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -127,8 +127,8 @@
     }
 
     .opções__botão:checked~.opções__rotulo>.opções__item {
-        background: var(--azul-degrade);
-        color: var(--branco);
+        background: rgb(199, 157, 32);;
+        color: var(--preto);
     }
 
     .opções__item {

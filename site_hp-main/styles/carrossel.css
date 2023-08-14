@@ -8,10 +8,6 @@
     padding: 1em 0 0.5em 0;
 }
 
-.carrossel__container {
-    background-image: url("../img/papel.jpg");
-}
-
 .swiper-slide img {
     width: 100%;
 }
