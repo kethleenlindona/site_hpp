@@ -16,7 +16,7 @@
 }
 
 .cabeçalho {
-    background-color: rgba(0, 0, 0, 0.13);
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,10 +43,10 @@
     display: block;
 }
 
-.lista-menu__titulo 
+.lista-menu__titulo, 
 .lista-menu__item {
     padding: 1em;
-    background-color: rgb(199, 157, 32);
+    background-color:  rgb(199, 157, 32);
 }
 
 .lista-menu__titulo {
@@ -55,7 +55,7 @@
 }
 
 .lista-menu__link {
-    background: rgb(5, 5, 5);
+    background: rgb(0, 0, 0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -68,6 +68,7 @@
 
 .container__titulo {
     display: none;
+    color: white;
 }
 
 .opções {
@@ -137,7 +138,7 @@
     }
 
     .lista-menu__item:hover {
-        background: var(--azul-degrade);
+        background: var(--preto);
     }
 
     .lista-menu__item:hover>.lista-menu__link {
