@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Todos os departamentos</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Moda</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Casa e Decoração</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Acessórios</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Papelaria</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Colecionáveis</a>
+                </li>
+            </ul>
+            <img src="img/logo (1) (1).png" alt="Logo da Alurabooks" class="container__imagem">
+            <img src="img/lgnome.png" alt="Logo da Alurabooks" class="container__imagem">
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Todos os departamentos</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Moda
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Casa e Decoração</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Acessórios</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Papelaria</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Colecionáveis</a>
+                </li>
+            </ul>
+            <li class="opções__item"><a href="#" class="opções__link">Wizarding World</a></li>
+        </ul>
+
+        <div class="container">
+            <a href="#"><img src="img/fav.png" alt="Meus favoritos"
+                    class="container__imagem container__imagem-transparente"></a>
+            <a href="#" class="container__link">
+                <img src="img/sacola.png" alt="Carrinhos de compras" class="container__imagem">
+            </a>
+            <a href="#" class="container__link">
+                <img src="img/usu.png" alt="Meu perfil" class="container__imagem">
+            </a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Hogwarts uma História</h2>
+        <p class="banner__texto">Onde tudo começou...</p>
+        <input type="search" class="banner__pesquisa" placeholder="O que você procura?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Navegue Pelas Casas:</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/grif.png"
+                            alt="Livro sobre apache kafka e spring boot da alura books"></div>
+                    <div class="swiper-slide"><img src="img/son.png"
+                            alt="Livro sobre liderança em design da alura books"></div>
+                    <div class="swiper-slide"><img src="img/corv.png"
+                            alt="Livro sobre javascript assertivo da alurabooks"></div>
+                    <div class="swiper-slide"><img src="img/luf.png" alt="Livro Guia front end"></div>
+                </div>
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">confira algumas novidades:</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/1.png"
+                            alt="Livro sobre apache kafka e spring boot da alura books"></div>
+                    <div class="swiper-slide"><img src="img/2.png"
+                            alt="Livro sobre liderança em design da alura books"></div>
+                    <div class="swiper-slide"><img src="img/3.png"
+                            alt="Livro sobre javascript assertivo da alurabooks"></div>
+                    <div class="swiper-slide"><img src="img/4.png" alt="Livro Guia front end"></div>
+                    <div class="swiper-slide"><img src="img/5.png" alt="Livro sobre portugol"></div>
+                    <div class="swiper-slide"><img src="img/6.png" alt="livro sobre acessibilidade"></div>
+                </div>
+                
+            </div>
+
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descrição">
+                    <!-- 1º coluna -->
+                    <div class="descrição">
+                        <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+                        <h3 class="descrição__titulo">Box Harry Potter Tradicional</h3>
+                        <h2 class="descrição__titulo-livro">Capa comum - 15 outubro 2020</h2>
+                        <p class="descrição__texto">Box especial e inédito, feito para você que gosta das capas tradicionais de Harry Potter.
+                        </p>
+                    </div>
+                    <!-- 2º coluna -->
+                    <img src="img/box.png" class="descrição__imagem">
+                </div>
+
+                <!-- 2º linha -->
+                <div class="card__botões">
+                    <!-- 1º coluna -->
+                    <ul class="botões">
+                        <li class="botões__item"><img src="img/favoritos (1).png" alt="Favoritar livro"></li>
+                        <li class="botões__item"><img src="img/sacola (1).png" alt="Adicionar no carrinho de compras"></li>
+                    </ul>
+                    <!-- 2º coluna -->
+                    <a href="#" class="botões__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tópicos">
+        <h2 class="tópicos__titulo">PESQUISAS RECENTES:</h2>
+        <ul class="tópicos__lista">
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Camisetas</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Cachecóis</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Bonés</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Capas</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Pantufas</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Para mais informações:</h2>
+        </div>
+        <input type="email" placeholder="Deixe seu e-mail" class="contato__email">
+    </section>
+
+    <hr />
+
+    <footer class="rodapé">
+        <img src="img/spa (1).png" class="descrição__imagem">
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">Sobre</li>
+            <li class="lista-rodapé__item"></li>
+            <a href="#" class="opções__link">Sobre nós</a>
+        </li>
+        </ul>
+
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">Atendimento ao Cliente</li>
+            <li class="lista-rodapé__item">
+                <li class="lista-rodapé__item"></li>
+                <a href="#" class="opções__link">Contate-nos</a>
+            </li>
+            <li class="lista-rodapé__item"></li>
+            <a href="#" class="opções__link">Perguntas Frequentes</a>
+        </li>
+            </li>
+        </ul>
+
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">Jurídico</li>
+            <li class="lista-rodapé__item"></li>
+                <a href="#" class="opções__link">Termos de uso</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="opções__link">Termos de compra</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="opções__link">Garantia (Varinha Mágica do Conjurador)</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="opções__link">Declaração de Transparência da Lei da Escravidão Moderna</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="opções__link">Política de Privacidade</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="opções__link">Opções de anúncios</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+
+</html>
